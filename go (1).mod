@@ -1,3 +1,3 @@
-module github-proxy
+module wikidot-proxy
 
 go 1.19
