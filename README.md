@@ -3,7 +3,7 @@
 # 部署服务
 ### 1.安装Golang
      apt install golang
-### 2. 下载文件 config.go 并按需修改配置文件,与 go.mod 放置在vps你新建的文件夹中
+### 2. 下载文件 config.go 并按需修改配置文件,与 go.mod 放置在vps你新建的文件夹中(注 ：左侧域名为你要进行代理的域名，右侧对应的参数为你镜像域名的前缀）
     // 域名映射配置
     var domainMappings = map[string]string{
     "ci-cn-wiki.wikidot.com":                    "ci.",
