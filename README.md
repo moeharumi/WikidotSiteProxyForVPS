@@ -1,5 +1,5 @@
-# Wikidot SiteProxy For VPS
-解决某些网络环境下wikidot访问受限的问题。 利用GO作为后端，重写发送的HTML代理服务通过域名映射和资源转发，最终实现整站网页资源接管。
+# Sync remote website to local mirror server
+为了提升某些网站的访问速度，同步远程网站到本地镜像服务器。利用GO作为后端，重写发送的HTML代理服务通过域名映射和资源转发，最终实现整站网页资源接管。
 # 部署服务
 ### 1.安装Golang
      apt install golang
